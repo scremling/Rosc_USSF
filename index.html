@@ -88,6 +88,7 @@ h1{font-size:18px;font-weight:600;margin-bottom:4px}
 <button class="tab" onclick="setTab('domains',this)">Mission domains</button>
 <button class="tab" onclick="setTab('engage',this)">How to engage</button>
 <button class="tab" onclick="setTab('playbook',this)">VC playbook</button>
+<button class="tab" onclick="setTab('peo',this)">PEO playbook</button>
 <button class="tab" onclick="setTab('glossary',this)">Glossary</button>
 </div>
 
@@ -271,6 +272,225 @@ h1{font-size:18px;font-weight:600;margin-bottom:4px}
 </div>
 
 <!-- GLOSSARY -->
+<!-- PEO PLAYBOOK -->
+<div id="view-peo" class="view">
+<div style="font-size:11px;color:#666;margin-bottom:14px;line-height:1.6">Each Program Executive Office (PEO) inside Space Systems Command manages a specific portfolio of programs. This is where contracts actually originate. Understanding each PEO tells you which bucket your portfolio company belongs in — and what kind of contract to expect.</div>
+
+<div style="background:#EFF6FF;border:1px solid #BFDBFE;border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:11px;color:#1e40af;line-height:1.6">
+<b>How PEOs work:</b> Each PEO is led by a military officer (usually a colonel or general) and a civilian program executive. They manage a budget, run competitions, and award contracts — typically FAR-based for large programs, OTA for rapid/prototype work, and SBIR/STRATFI through SpaceWERX for commercial innovation. Deal sizes range from $1M SBIR Phase IIs to multi-billion IDIQ vehicles that span decades.
+</div>
+
+<!-- PEO Space C2 -->
+<div class="card" style="margin-bottom:10px">
+<div class="card-header blue"><div class="card-title">PEO Space C2 — Space Command & Control</div></div>
+<div class="card-body">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+<div class="name-card">
+<div class="name-title">What it owns</div>
+<div class="name-role">All software systems that command and control Space Force satellites and operations. Space C2 (SpC2) modernization program. Battle management for Golden Dome. GPS OCX ground system. JADC2 integration for Space Force nodes.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Budget signal</div>
+<div class="name-role">~$800M annually. OCX alone has consumed $1B+. SpC2 modernization is a multi-year, multi-hundred-million dollar effort. Golden Dome BM software is emerging as a new major line item.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Contract vehicles used</div>
+<div class="name-role">FAR-based IDIQ (large programs like OCX). OTA for prototypes (SpC2 increments). SBIR/STRATFI for commercial software startups through SpaceWERX.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Current activity (2026)</div>
+<div class="name-role">SpC2 incremental development ongoing. Golden Dome battle management software emerging as new requirement. Active push away from monolithic ground software toward modular cloud-native architecture.</div>
+</div>
+</div>
+<div class="ws-box">
+<div class="ws-label">Why it matters for VC</div>
+<div class="ws-text">The most software-heavy PEO. Every lesson from OCX (single vendor, waterfall, years late) is driving a push toward commercial software approaches. Cloud-native multi-mission ground software and autonomous constellation management are both active unsolved problems this PEO needs to solve. Palantir's Space Force relationships run through here.</div>
+</div>
+</div>
+</div>
+
+<!-- PEO GPS -->
+<div class="card" style="margin-bottom:10px">
+<div class="card-header blue"><div class="card-title">PEO GPS & Navigation Systems (NSS)</div></div>
+<div class="card-body">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+<div class="name-card">
+<div class="name-title">What it owns</div>
+<div class="name-role">GPS III and GPS IIIF satellites (Lockheed Martin). GPS OCX ground control system (Raytheon). Military GPS User Equipment — MGUE Inc 1 and Inc 2 (L3Harris). Enhanced Polar System Recapitalization (EPS-R).</div>
+</div>
+<div class="name-card">
+<div class="name-title">Budget signal</div>
+<div class="name-role">~$1.2B annually. GPS III follow-on added 2 satellites in FY25 ($260M+). OCX has been $1B+ over many years. MGUE procurement is ongoing across the services.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Contract vehicles used</div>
+<div class="name-role">Large FAR-based production contracts (GPS III with Lockheed Martin, OCX with Raytheon). Separate competitive buys for user equipment. Some OTA for alternative PNT experimentation.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Current activity (2026)</div>
+<div class="name-role">GPS IIIF production ongoing. OCX testing — 98% test pass rate as of April 2025 but still troubled. MGUE Inc 2 procurement accelerating. Growing interest in commercial alternative PNT (LEO-PNT) as GPS jamming threats increase.</div>
+</div>
+</div>
+<div class="ws-box">
+<div class="ws-label">Why it matters for VC</div>
+<div class="ws-text">The most conservative PEO — dominated by two primes (Lockheed, Raytheon) and slow procurement cycles. The VC angle is in the commercial adjacent space: anti-jam/anti-spoof chipsets for MGUE alternatives, and LEO-PNT constellations that provide GPS backup. Xona Space is the main LEO-PNT player. A GPS jamming event in a major conflict would accelerate this category overnight.</div>
+</div>
+</div>
+</div>
+
+<!-- PEO MILSATCOM -->
+<div class="card" style="margin-bottom:10px">
+<div class="card-header blue"><div class="card-title">PEO MILSATCOM — Military Satellite Communications</div></div>
+<div class="card-body">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+<div class="name-card">
+<div class="name-title">What it owns</div>
+<div class="name-role">AEHF (nuclear command SATCOM, 6 satellites). WGS (wideband SATCOM backbone, 11 satellites). Protected Tactical Services (PTS, new jam-resistant system). Commercial Augmentation Space Reserve (CASR) for SATCOM. SDA transport layer coordination.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Budget signal</div>
+<div class="name-role">~$3.7B annually — the largest single mission area in Space Force. AEHF and WGS are operational (sustainment costs). PTS is an active new development. CASR SATCOM expansion is funded for 2026.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Contract vehicles used</div>
+<div class="name-role">Large FAR IDIQ for legacy programs (AEHF sustainment, WGS). OTA and CASR agreements for commercial SATCOM. SpaceWERX SBIR for commercial integration tools. The CASR framework is specifically designed as a non-FAR commercial vehicle.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Current activity (2026)</div>
+<div class="name-role">CASR expanding from SDA pilot to SATCOM — new vendor onboarding underway. PTS development active. Commercial SATCOM wargames completed with 14+ companies in 2025. Next big competition: Protected Tactical SATCOM follow-on.</div>
+</div>
+</div>
+<div class="ws-box">
+<div class="ws-label">Why it matters for VC</div>
+<div class="ws-text">The most commercially open PEO. CASR is a genuine on-ramp — pre-negotiated agreements with commercial SATCOM providers that can be activated during a crisis. New SATCOM vendors are being onboarded now. The interoperability software gap (switching between Starlink, SES, and legacy MILSATCOM) is a real unsolved problem this PEO needs. Most commercial space VC deal flow touching SATCOM eventually runs through this office.</div>
+</div>
+</div>
+</div>
+
+<!-- PEO Launch -->
+<div class="card" style="margin-bottom:10px">
+<div class="card-header blue"><div class="card-title">PEO Launch Enterprise</div></div>
+<div class="card-body">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+<div class="name-card">
+<div class="name-title">What it owns</div>
+<div class="name-role">National Security Space Launch (NSSL) program — all Space Force launch contracts. Range operations (Cape Canaveral, Vandenberg). Rocket Cargo program. Tactically Responsive Space (TacRS) launch. Small sat launch (NSSL Lane 1).</div>
+</div>
+<div class="name-card">
+<div class="name-title">Budget signal</div>
+<div class="name-role">~$2B+ annually. NSSL Phase 3 has two lane holders: SpaceX (Falcon 9/Heavy) and ULA (Vulcan Centaur). Lane 1 (medium/small launch) adds Rocket Lab and others. Maj. Gen. Purdy has explicitly said they are "satisfied with launch" — new launch companies are not a priority investment area.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Contract vehicles used</div>
+<div class="name-role">Large FAR IDIQ for NSSL (multi-year, multi-billion). OTA for TacRS demonstrations. SBIR/STRATFI for responsive launch technology (SpaceWERX issued only 1 STRATFI to a launch company — ABL Space, which exited the market).</div>
+</div>
+<div class="name-card">
+<div class="name-title">Current activity (2026)</div>
+<div class="name-role">NSSL Phase 3 active with SpaceX and ULA. Lane 1 expanding. TacRS demonstrations continuing (VICTUS HAZE follow-ons). Range modernization ongoing. Purdy's Feb 2026 investor talk explicitly said payloads and sensors are the gap — not launch vehicles.</div>
+</div>
+</div>
+<div class="ws-box">
+<div class="ws-label">Why it matters for VC</div>
+<div class="ws-text">The most closed PEO for new entrants. SpaceX effectively owns this market. The VC opportunity is not in launch vehicles — it's in launch-adjacent software: range safety automation, payload integration tooling, responsive launch operations software (scheduling 24-hour launch windows). These are software problems, not rocket problems, and they're currently solved manually.</div>
+</div>
+</div>
+</div>
+
+<!-- PEO SCP -->
+<div class="card" style="margin-bottom:10px">
+<div class="card-header" style="background:#FFF1F2;border-bottom:1px solid #FECDD3"><div class="card-title" style="color:#9F1239">PEO Space Combat Power — Col. Bryon McClain</div></div>
+<div class="card-body">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+<div class="name-card">
+<div class="name-title">What it owns</div>
+<div class="name-role">Space-Based Interceptors (SBIs) for Golden Dome. Offensive and defensive counterspace capabilities (mostly classified). Space electronic warfare. Kill chain software for space-based weapons. On-orbit maneuvering and rendezvous programs.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Budget signal</div>
+<div class="name-role">$3.2B already awarded in OTA prototype contracts (late 2025/early 2026). $25B allocated to Golden Dome over 10 years by Congress. Single largest new program in Space Force history. Most of the $13.8B reconciliation surge flows through or adjacent to this PEO.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Contract vehicles used</div>
+<div class="name-role">Predominantly OTA — the 20 SBI contracts were all OTA. This is intentional: OTA "attracted both traditional and non-traditional vendors" per Col. McClain. Competitive parallel development (multiple companies building competing prototypes simultaneously) rather than selecting a single winner early.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Current activity (2026)</div>
+<div class="name-role">SBI prototype development underway across 12 firms. Initial capability target: 2028. Next phase competitions expected 2026-2027 as prototypes are evaluated. Kill chain software (battle management) is the identified gap with no current incumbent. Much of the work is classified.</div>
+</div>
+</div>
+<div class="ws-box">
+<div class="ws-label">Why it matters for VC</div>
+<div class="ws-text">The hottest PEO for defense-tech VC right now. True Anomaly ($650M raised after SBI selection) is the clearest example of what a win here does to a company's trajectory. The hardware (interceptors) is now covered by 12 companies. The software — kill chain management, autonomous targeting, battle damage assessment, constellation coordination — has no incumbent. This is the biggest unsolved software problem in space defense. Companies need security clearances and ITAR compliance to play here, which raises the bar but also narrows the competition.</div>
+</div>
+</div>
+</div>
+
+<!-- PEO ISR -->
+<div class="card" style="margin-bottom:10px">
+<div class="card-header blue"><div class="card-title">PEO Intelligence, Surveillance & Reconnaissance (ISR) & Novel Capabilities</div></div>
+<div class="card-body">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+<div class="name-card">
+<div class="name-title">What it owns</div>
+<div class="name-role">Overhead Persistent Infrared (OPIR / Next-Gen OPIR) missile warning satellites. Wide Field of View (WFOV) sensors. Hypersonic and Ballistic Tracking Space Sensor (HBTSS). Commercial ISR data purchases. Novel sensing programs (many classified).</div>
+</div>
+<div class="name-card">
+<div class="name-title">Budget signal</div>
+<div class="name-role">~$900M annually for unclassified programs. Classified budget adds significantly to this. Next-Gen OPIR is a multi-billion satellite program. HBTSS is an active development. Commercial ISR data purchases are growing as an alternative to building government sensors.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Contract vehicles used</div>
+<div class="name-role">Large FAR IDIQ for major satellite programs (Next-Gen OPIR with Northrop/Lockheed). OTA and SBIR for novel sensing. Commercial data purchase agreements (Other Transactions) for buying imagery and tracking data from commercial providers.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Current activity (2026)</div>
+<div class="name-role">HBTSS development ongoing. Commercial data buying expanding — Space Force increasingly purchasing ISR data from commercial providers rather than building dedicated government sensors. On-orbit AI inference is an emerging requirement: processing data on the satellite before downlink to reduce latency.</div>
+</div>
+</div>
+<div class="ws-box">
+<div class="ws-label">Why it matters for VC</div>
+<div class="ws-text">The commercial data purchase trend is significant — it means startups with geospatial AI and hyperspectral sensing capabilities can sell data products to the Space Force without winning a traditional satellite contract. HawkEye 360 (RF intelligence) and Slingshot Aerospace (space tracking) are examples. On-orbit AI inference (edge compute on satellites) is an emerging requirement with no current commercial incumbent that meets Space Force standards.</div>
+</div>
+</div>
+</div>
+
+<!-- PEO note on SDA -->
+<div class="card" style="margin-bottom:10px">
+<div class="card-header" style="background:#F0FDF4;border-bottom:1px solid #BBF7D0"><div class="card-title" style="color:#166534">SDA — Space Development Agency (separate from PEO structure but functions like one)</div></div>
+<div class="card-body">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+<div class="name-card">
+<div class="name-title">What it owns</div>
+<div class="name-role">PWSA constellation — Transport Layer (data relay), Tracking Layer (missile tracking), and future layers. 300+ satellites across multiple tranches. Optical inter-satellite links. Ground architecture for PWSA. Airborne optical comms terminals (new RFI 2025).</div>
+</div>
+<div class="name-card">
+<div class="name-title">Budget signal</div>
+<div class="name-role">Multi-billion over 5+ years. Tranche 1 (28 transport + 20 tracking satellites) already launched Sept 2025. T3TRK (54+ tracking satellites) is the current active solicitation. SDA moves faster than any other Space Force acquisition organization.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Contract vehicles used</div>
+<div class="name-role">Predominantly OTA — SDA pioneered the use of OTA for satellite acquisition. Multiple simultaneous competitors per tranche. 2-3 year delivery requirement built into every contract. Also participates in SpaceWERX SBIR for component technologies.</div>
+</div>
+<div class="name-card">
+<div class="name-title">Current activity (2026)</div>
+<div class="name-role">T3TRK RFP active (54+ tracking satellites, proposals due). Airborne optical communications terminal RFI issued. Transport Layer Tranche 2 under construction. First on-orbit demonstrations of space-to-air laser comms completed Aug 2025. Planning for Tranche 3 and beyond.</div>
+</div>
+</div>
+<div class="ws-box">
+<div class="ws-label">Why it matters for VC</div>
+<div class="ws-text">The single best government customer signal for hardware startups. SDA contract = real revenue, real timeline (2-3 years), real validation. Winners of SDA tranches (York Space, Teledyne, Rocket Lab, L3Harris) have used it as a Series B/C anchor. The next opportunity: T3TRK tracking layer satellites. Also watch: airborne optical comms terminals — a new market connecting aircraft directly to LEO satellites via laser, with both military and commercial applications.</div>
+</div>
+</div>
+</div>
+
+<div style="background:#f8f8f8;border-radius:8px;padding:12px 14px;font-size:11px;color:#444;line-height:1.6;margin-top:4px">
+<b style="color:#1B3A6B">Quick reference — PEOs ranked by commercial openness for VC-backed startups:</b><br><br>
+<span style="color:#16A34A;font-weight:600">Most open:</span> SDA (fastest contracts, OTA, 2-3yr timelines) · PEO MILSATCOM (CASR, commercial SATCOM) · PEO Space Combat Power (OTA prototypes, Golden Dome)<br><br>
+<span style="color:#B45309;font-weight:600">Moderately open:</span> PEO Space C2 (SpC2 modernization, software) · PEO ISR (commercial data purchases, novel sensing)<br><br>
+<span style="color:#9F1239;font-weight:600">Mostly closed:</span> PEO GPS (dominated by Lockheed + Raytheon) · PEO Launch (SpaceX owns this market — "satisfied with launch" per Purdy)
+</div>
+</div>
+
 <div id="view-glossary" class="view">
 <div style="font-size:11px;color:#666;margin-bottom:14px;line-height:1.6">Every acronym and term used in this document, explained from scratch. No prior knowledge assumed.</div>
 
